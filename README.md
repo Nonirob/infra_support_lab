@@ -62,6 +62,56 @@ Web checks / triggers / problems
 
 ---
 
+# Screenshots
+
+## Docker containers
+
+![Docker containers](screenshots/01-docker-containers.jpg)
+
+---
+
+## Kibana error search
+
+![Kibana errors](screenshots/02-kibana-errors.jpg)
+
+---
+
+## Grafana dashboard
+
+![Grafana dashboard](screenshots/03-grafana-dashboard.jpg)
+
+---
+
+## Prometheus targets
+
+![Prometheus targets](screenshots/04-prometheus-targets.jpg)
+
+---
+
+## Zabbix latest data check
+
+![Zabbix web check](screenshots/05-zabbix-data.jpg)
+
+---
+
+## Zabbix grafana problem occurred
+
+![Zabbix web check](screenshots/06-zabbix-grafana-problem.jpg)
+
+---
+
+## Zabbix grafana problem resolved
+
+![Zabbix web check](screenshots/07-zabbix-grafana-up.jpg)
+
+---
+
+## Cron healthcheck logs
+
+![Cron healthcheck logs](screenshots/08-cron-healthcheck-logs.jpg)
+
+---
+
 # How to Run
 
 Start the full lab environment:
@@ -315,54 +365,6 @@ This scenario was used to practice:
 - trigger-based problem detection
 - incident recovery verification
 - basic troubleshooting workflow
-
-# Screenshots
-
-## Docker containers
-
-![Docker containers](screenshots/01-docker-containers.jpg)
-
----
-
-## Kibana error search
-
-![Kibana errors](screenshots/02-kibana-errors.jpg)
-
----
-
-## Grafana dashboard
-
-![Grafana dashboard](screenshots/03-grafana-dashboard.jpg)
-
----
-
-## Prometheus targets
-
-![Prometheus targets](screenshots/04-prometheus-targets.jpg)
-
----
-
-## Zabbix latest data check
-
-![Zabbix web check](screenshots/05-zabbix-data.jpg)
-
----
-
-## Zabbix grafana problem occurred
-
-![Zabbix web check](screenshots/06-zabbix-grafana-problem.jpg)
-
----
-
-## Zabbix grafana problem resolved
-
-![Zabbix web check](screenshots/07-zabbix-grafana-up.jpg)
-
----
-
-## Cron healthcheck logs
-
-![Cron healthcheck logs](screenshots/08-cron-healthcheck-logs.jpg)
 
 ---
 
