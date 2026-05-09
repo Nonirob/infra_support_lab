@@ -1,0 +1,12 @@
+INFO Application started
+INFO User login success
+WARNING Slow response detected
+ERROR Database connection failed
+INFO Retry connection
+ERORR Payment transaction timeout
+ERROR Redis connection refused
+ERROR PostgreSQL unavailable
+WARNING High memory usage
+2026-05-06 14:22:11 ERROR MongoDB unavailable
+ERROR PostgreSQ: unavailable
+ERROR Payment transaction failed

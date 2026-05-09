@@ -1,0 +1,25 @@
+filebeat.inputs:
+  # Collect custom application/test logs from the local logs directory.
+  - type: filestream
+    enabled: true
+    paths:
+      - /logs/*.log
+
+  # Collect Docker container JSON logs from the host.
+  # This allows analyzing real logs from services such as PostgreSQL, Grafana, Zabbix, etc.
+  - type: filestream
+    enabled: true
+    paths:
+      - /var/lib/docker/containers/*/*-json.log
+
+processors:
+  # Adds Docker metadata such as container name and image to log events.
+  - add_docker_metadata: ~
+
+output.elasticsearch:
+  # Send collected logs to Elasticsearch.
+  hosts: ["http://elasticsearch:9200"]
+
+setup.kibana:
+  # Kibana endpoint used by Filebeat setup features.
+  host: "http://kibana:5601"
